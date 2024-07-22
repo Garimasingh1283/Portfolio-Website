@@ -1,0 +1,101 @@
+/* NavItems.css */
+
+.nav-container {
+    background-color: #071952; /* Dark Blue */
+    color: #EBF4F6; /* Light Gray */
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 4rem; /* Adjust logo size as needed */
+    height: 4rem;
+}
+
+.title {
+    margin-left: 1rem;
+    color: #EBF4F6; /* Light Gray */
+}
+
+.nav-items {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: #EBF4F6; /* Light Gray */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #37B7C3; /* Light Blue */
+}
+
+.hamburger {
+    display: none;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.mobile-menu {
+    display: none;
+    background-color: #071952; /* Dark Blue */
+    color: #EBF4F6; /* Light Gray */
+}
+
+.mobile-nav-items {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.mobile-nav-item a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem; /* Rounded corners */
+    text-decoration: none;
+    color: #EBF4F6; /* Light Gray */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mobile-nav-item a:hover {
+    background-color: #088395; /* Teal */
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}
