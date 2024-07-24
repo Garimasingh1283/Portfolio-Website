@@ -1,3 +1,6 @@
+# take a look through the website using the link : 
+https://portfolio-website-txbl-f9ce3t8oh.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
